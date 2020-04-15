@@ -1,0 +1,121 @@
+.novelFlexContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.novelFlexContent {
+    flex:0 0 auto;
+    margin: 10px;
+}
+.novelImageSize {
+    width: 200px;
+}
+
+h1, h2, h3
+{
+	font-size: 5mm;
+	font-family: "Trajan Pro", sans-serif;
+	color: black;
+	font-weight: bold;
+}
+}
+p
+{
+	font-size: 4mm;
+	font-family: "Minion Pro", sans-serif;
+	color: black;
+}
+
+/* Nav Bar*/
+div.buttons 
+{
+	font-size: 5mm;
+	font-family: "Trajan Pro", sans-serif;
+}
+
+div.navbar
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-right: 10mm;
+}
+
+a.link
+{
+	text-decoration: none;
+	color: black;
+	padding-top: 1mm;
+	padding-bottom: 2mm;
+	padding-right: 3.5mm;
+	padding-left: 3.5mm;
+	text-transform: uppercase;
+	font-family: "Trajan Pro", sans-serif;
+	font-size: 3.8mm;
+}
+
+a.link:hover
+{
+	color: #bfbfbf;
+	transition: .5s ease;
+}
+
+a.link:active
+{
+	color: black;
+}
+
+a.select
+{
+	color: #bfbfbf;
+	background-color: white;
+	border-radius: 3mm;
+}
+
+li.link
+{
+	display: inline-block;
+}
+
+/*Social Media*/
+
+.smicon:hover
+{
+	opacity: 60%;
+	transition: .5s ease;
+}
+
+a
+{
+	font-size: 4.2mm;
+    font-family: "Minion Pro", sans-serif;
+    color: #bfbfbf;
+
+}
+a:hover
+{
+	color: black;
+	transition: .5s ease;
+}
+a:active
+{
+	color: #bfbfbf;
+}
+
+.footer
+{
+	font-size: 3mm;
+	font-family: "Minion Pro", sans-serif;
+	text-align: center;
+}
+
+.novelphoto:hover
+{
+	transition: .8s ease;
+	opacity: 50%
+}
+.novelphoto:active
+{
+	opacity: 100%;
+}
